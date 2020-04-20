@@ -1,0 +1,267 @@
+ html{
+ 	
+ 	font-family: Roboto;
+ 	 overflow-x: hidden;
+ 	 overflow-y: hidden;
+     overflow:hidden;	
+ }
+
+ h2{
+     padding-top: 0.7em;
+     text-align: center;
+     font-size: 3em;
+     font-weight: 600;
+     display: inline-block;
+}
+ body {
+     height: 50%;
+     margin: 0;
+     position: relative;
+}
+ head{
+	
+ 	 font-family: Roboto;
+     height: 125px;
+     position: relative;
+}
+
+ h3{
+     justify-content: left;
+     font-size: 20px;
+     display: inline-block;
+}
+ h1 {
+     padding-top: 0.1em;
+     text-align: center;
+     font-size: 30px;
+     display: block;
+}
+ h4 {
+     padding-top: 0.1em;
+    /*text-align: center;
+    */
+     font-size: 2.5em;
+     display: block;
+}
+ main {
+     flex-grow: 1;
+     display: flex;
+     position: fixed;
+     height: 100%;
+     width: 100%;
+     min-height: 100%;
+     background-image: linear-gradient(to bottom, #5ee7df 0%, #b490ca 100%);
+}
+ #content{
+    /*background-color: pink;
+    */
+     height: 100%;
+     flex-grow: 1;
+     font-family: Roboto;
+     color: black;
+}
+ #content2{
+     background: rgb(223,45,45);
+     background: linear-gradient(0deg, rgba(223,45,45,1) 0%, rgba(167,108,108,1) 38%, rgba(233,201,201,1) 100%);
+     flex-grow: 1;
+     font-family: monospace;
+     color: black;
+}
+ #stButton{
+     position: absolute;
+     left: 47%;
+     top: 40%;
+     display: none;
+     border: 3px solid !important;
+     border-color: black;
+     border-radius: 7px;
+     font-size: 25px;
+}
+ #altHeading{
+     text-align: center;
+     margin-top: 5%;
+}
+ #authenticate{
+     text-align: center;
+     margin-top: 4%;
+}
+ #loadingtext{
+     text-align: center;
+     margin-top: 5%;
+}
+ #authButton{
+     height:50px;
+     width:200px;
+}
+ #nxt{
+     text-align: center;
+     font-size: 25px !important;
+     display: block;
+     position: center;
+     text-transform: uppercase;
+     text-decoration: none;
+     background: transparent;
+     padding-bottom: 0.5px;
+     padding-right: 7px;
+     padding-left: 7px;
+     border: 3px solid;
+     color: black;
+     border-radius: 5px;
+     transition: all 0.4s ease 0s;
+}
+ .form-block{
+     text-align: center;
+     padding-left: 5%;
+     padding-right: 5%;
+}
+ .form-block2{
+     padding-top: 5%;
+     left: 50%;
+     top: 30%;
+     display: inline-block;
+}
+ label{
+     display: inline-block;
+     padding-right: 2em;
+     font-size: 1.5em;
+}
+ p{
+     font-size: 20px;
+     text-align: center;
+     margin-left: 10%;
+     margin-right: 10%;
+     color: black;
+}
+ hr{
+     margin: 0em auto;
+     border-width: 3px;
+     background: #6d0000;
+}
+ #top{
+     align-items: center;
+     text-align: center;
+}
+ img{
+     max-height: 125px;
+}
+ #surveySelect{
+     text-align: center;
+}
+ #editButtons{
+     display: inline-block;
+     padding-left: 1.5em;
+     font-size: 30px;
+}
+ #editStartButtons{
+     display: inline-block;
+     font-size: 30px;
+}
+ .example_e {
+     display: inline-block;
+     display: inline-block;
+     color: #b8005a !important;
+     text-transform: uppercase;
+     text-decoration: none;
+     background: transparent;
+     padding-bottom: 0.5px;
+     padding-right: 7px;
+     padding-left: 7px;
+     border: 3px solid #b8005a;
+     display: inline-block;
+     border-radius: 5px;
+     transition: all 0.4s ease 0s;
+
+}
+ .example_e:hover {
+     display: inline-block;
+     background: #b8005a;
+     color: white !important;
+     border-color: #b8005a !important;
+     transition: all 0.3s ease 0s;
+}
+ #restart{
+     margin-top: 3em;
+     text-align: center;
+}
+ #alttexty{
+     padding-top: 0px !important;
+
+     font-size: 20px !important;
+}
+ .material-icons.md-50 {
+     font-size: 50px;
+}
+
+ footer {
+     position: fixed;
+     text-align: center;
+     font-family: Roboto;
+     font-weight: bold;
+     bottom: 0;
+     
+     width: 100%;
+     background-color: #b490ca 50%;
+     padding-bottom: 1%;
+     margin-bottom: 0px;
+
+}
+
+.google-btn {
+    margin: 0 auto 0 auto;
+    text-overflow: ellipsis;
+    width: 80%;
+    min-width: 184px;
+    max-width: 184px;
+    height: 42px;
+    background-color: #fcfcfc;
+    border-radius: 2px;
+    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+    cursor: hand;
+    align-self: center;
+    user-select: none;
+    transition: all 400ms ease 0s;
+    display: flex;
+}
+.google-btn .google-icon-wrapper {
+    
+   
+    position: absolute;
+
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    user-select: none
+}
+.google-btn .google-icon-svg {
+    float: left;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    
+}
+.google-btn .btn-text {
+    float: right;
+    margin: 11px 14px 40px 40px;
+    color: black;
+    text-overflow: none;
+    font-size: 14px;
+    letter-spacing: .2px ;
+    font-family: Roboto ;
+    user-select: none;
+}
+.google-btn:hover {
+    box-shadow: 0 3px 8px rgba(117, 117, 117, .5);
+    user-select: none
+}
+.google-btn:active {
+    box-shadow: 0 1px 1px #757575;
+    background: #F8F8F8;
+    color: #fff;
+    user-select: none
+}
+
